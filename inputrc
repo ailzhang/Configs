@@ -1,0 +1,3 @@
+# vim mode disabled
+# set editing-mode vi
+"\C-w": backward-delete-word

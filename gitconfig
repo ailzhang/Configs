@@ -1,0 +1,8 @@
+[user]
+  name = Ailing Zhang
+  email = ailzhang@fb.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status

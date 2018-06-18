@@ -23,6 +23,7 @@ call vundle#begin()
     Plugin 'roman/golden-ratio'
     Plugin 'zhaocai/GoldenView.Vim'
     Plugin 'vim-scripts/vim-flake8'
+    Plugin 'tpope/vim-sleuth'
 call vundle#end()
 "call plug#begin('~/.vim/plugged')
 "    Plug 'tomasr/molokai'
@@ -58,6 +59,7 @@ set guifont=Source\ Code\ Pro\ for\ Powerline
 let g:loaded_golden_ratio = 1
 """"""""""""""""""""For AutoHeader""""""""""""""""""""""""""
 let g:autoHEADER_default_author = 'Ailing Zhang'
+
 """"""""""""""""""""Nerd Tree""""""""""""""""""""""""""""""
 "autocmd vimenter * NERDTree | wincmd p
 "autocmd StdinReadPre * let s:std_in=1

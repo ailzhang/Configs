@@ -39,6 +39,9 @@ call vundle#end()
 filetype plugin indent on
 
 
+""""""""""""""""""""""vim-flake8""""""""""""""""""""""""""""
+autocmd FileType python map <buffer> <c-f> :call Flake8()<CR>
+
 """"""""""""""""""""""color theme""""""""""""""""""""""""""""
 "colo seoul256
 "set background=dark
